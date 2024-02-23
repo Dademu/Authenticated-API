@@ -1,5 +1,6 @@
 using System;
 using Microsoft.EntityFrameworkCore;
+using MyLibrary;
 using MyLibrary.Models;
 
 namespace YourNamespace.Data
@@ -19,6 +20,7 @@ namespace YourNamespace.Data
         // Override OnModelCreating to configure relationships, if needed
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            optionsBuilder.UseSqlServer("your_connection_string_here"); // Example of configuring a connection string
             // Configure relationships, if needed
             modelBuilder.Entity<Product>()
                 .HasOne(p => p.Category)
