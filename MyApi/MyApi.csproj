@@ -9,14 +9,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    
+    <PackageReference Include="Xunit" Version="2.6.6" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyApi.Domain\MyApi.Domain.csproj" />
+    <ProjectReference Include="..\MyApi.Infrastructure\MyApi.Infrastructure.csproj" />
 
 </Project>

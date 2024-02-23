@@ -1,0 +1,7 @@
+/Users/dademu/Desktop/Authenticated-API/MyApi/obj/Debug/net7.0/MyApi.csproj.AssemblyReference.cache
+/Users/dademu/Desktop/Authenticated-API/MyApi/obj/Debug/net7.0/MyApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dademu/Desktop/Authenticated-API/MyApi/obj/Debug/net7.0/MyApi.AssemblyInfoInputs.cache
+/Users/dademu/Desktop/Authenticated-API/MyApi/obj/Debug/net7.0/MyApi.AssemblyInfo.cs
+/Users/dademu/Desktop/Authenticated-API/MyApi/obj/Debug/net7.0/MyApi.csproj.CoreCompileInputs.cache
+/Users/dademu/Desktop/Authenticated-API/MyApi/obj/Debug/net7.0/MyApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/dademu/Desktop/Authenticated-API/MyApi/obj/Debug/net7.0/MyApi.MvcApplicationPartsAssemblyInfo.cache
