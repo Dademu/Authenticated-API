@@ -1,4 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
+using MyLibrary;
+using MyLibrary.Data;
+using MyLibrary.Models;
+using System.Linq;
+using System;
 
 namespace MyApi.Controllers;
 
@@ -11,12 +20,8 @@ public class ProductController : ControllerBase
     [HttpGet]
     public IActionResult GetAllProducts()
     {
-        [HttpGet]
-        public IActionResult GetAllProducts()
-        {
-            var products = _dbContext.Products.ToList();
-            return Ok(products);
-        }
+        var products = _dbContext.Products.ToList();
+        return Ok(products);
     }
 
     [HttpGet("{categoryId}")]
